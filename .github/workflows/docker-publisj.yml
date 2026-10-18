@@ -14,7 +14,7 @@ jobs:
       - name: Hello
         run: echo "Hello"
       - name: load repo
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
       - name: login_docker
         uses: docker/login-action@3
         with:
