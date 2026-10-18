@@ -16,7 +16,7 @@ jobs:
       - name: load repo
         uses: action/checkout@v4
       - name: login_docker
-        uses: docker/login-action@4
+        uses: docker/login-action@3
         with:
           username: ${{secrets.DOCKER_USERNAME}}
           password: ${{secrets.DOCKER_PASSWORD}}
